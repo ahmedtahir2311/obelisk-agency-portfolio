@@ -33,7 +33,7 @@ const HomeBanner = () => {
                   letterSpacing: "0.2rem",
                 }}
               >
-                Technology CONSULTING AGENCY
+                Technology consulting Agency
               </Typography>
             </GradientBackground>
             <Typography variant="h2" sx={{ fontWeight: "bold" }}>
