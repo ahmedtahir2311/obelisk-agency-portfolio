@@ -33,15 +33,15 @@ const HomeBanner = () => {
                   letterSpacing: "0.2rem",
                 }}
               >
-                DIGITAL CONSULTING AGENCY
+                Technology CONSULTING AGENCY
               </Typography>
             </GradientBackground>
             <Typography variant="h2" sx={{ fontWeight: "bold" }}>
-              Unique Business Consulting.
+              We Are Digital Agency & Technology Solution
             </Typography>
             <Typography variant="body1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              We are leading technology solutions providing company all over the
+              world doing over 40 years.
             </Typography>
             <Box>
               <Button variant="outlined" color="dark2">

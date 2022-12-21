@@ -5,7 +5,12 @@ import AcUnitIcon from "@mui/icons-material/AcUnit";
 const FeatureCard = ({ data }) => {
   return (
     <Box
-      sx={{ padding: "20px", border: "solid 1px gray", borderRadius: "10px" }}
+      sx={{
+        padding: "20px",
+        border: "solid 1px gray",
+        borderRadius: "10px",
+        boxShadow: "1",
+      }}
     >
       <Box
         sx={{
@@ -25,18 +30,18 @@ const FeatureCard = ({ data }) => {
             alignItems: "center",
           }}
         >
-          <AcUnitIcon />
+          <data.Icon />
         </Box>
 
         <Box sx={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           <Typography
-            variant="h4"
+            variant="h5"
             color={"text.gray.dark"}
             sx={{ fontWeight: "semibold" }}
           >
             {data?.title}
           </Typography>
-          <Typography variant="f18" color={"text.gray.light"}>
+          <Typography variant="f16" color={"text.gray.light"}>
             {data?.description}
           </Typography>
         </Box>
