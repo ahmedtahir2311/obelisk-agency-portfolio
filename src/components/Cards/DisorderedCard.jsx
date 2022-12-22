@@ -29,13 +29,13 @@ const DisorderedCard = ({ item, index }) => {
       >
         <Box
           component={"img"}
-          src={item.image}
+          src={item?.image}
           sx={{ width: "50px", filter: "invert(1)" }}
         />
         <Typography variant="f18" sx={{ fontWeight: "bold" }}>
-          {item.title}
+          {item?.title}
         </Typography>
-        <Typography variant="f14">{item.description}</Typography>
+        <Typography variant="f14">{item?.description}</Typography>
       </Box>
     </Box>
   );

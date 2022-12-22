@@ -346,18 +346,18 @@ const howCode = [
     title: "Agile Approach",
     image: "/images/icons/optimization-w.webp",
     description:
-      "an iterative approach to project management and software development that helps teams deliver value",
+      "An iterative approach to project management and software development that helps teams deliver value",
   },
   {
     title: "Full-stack teams",
     image: "/images/icons/development-u.webp",
     description:
-      "a group of dedicated developers who specialize in various fields of software development ",
+      "A group of dedicated developers who specialize in various fields of software development ",
   },
   {
     title: "Flexibility  ",
     image: "/images/icons/shield-w.webp",
     description:
-      "ability of a joint or series of joints to move through an unrestricted, pain free range of motion",
+      "Ability of a joint or series of joints to move through an unrestricted, pain free range of motion",
   },
 ];

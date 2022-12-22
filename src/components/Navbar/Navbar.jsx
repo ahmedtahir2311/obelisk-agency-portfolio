@@ -54,7 +54,18 @@ const Navbar = () => {
         </Box>
         <Box>
           <Box sx={{ display: "flex", gap: "30px" }}>
-            <Link href={"/contact-us"}>
+            <Link href={"/#aboutus"}>
+              <a>
+                <Typography
+                  variant="body1"
+                  color="text.dark"
+                  fontWeight={"fontWeightMedium"}
+                >
+                  About US
+                </Typography>
+              </a>
+            </Link>
+            <Link href={"/services"}>
               <a>
                 <Typography
                   variant="body1"
@@ -62,6 +73,17 @@ const Navbar = () => {
                   fontWeight={"fontWeightMedium"}
                 >
                   Services
+                </Typography>
+              </a>
+            </Link>
+            <Link href={"/services/#pricing"}>
+              <a>
+                <Typography
+                  variant="body1"
+                  color="text.dark"
+                  fontWeight={"fontWeightMedium"}
+                >
+                  Pricing
                 </Typography>
               </a>
             </Link>
