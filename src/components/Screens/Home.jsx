@@ -146,27 +146,132 @@ const Home = () => {
         </Box>
       </Box>
 
-      <Box height="40vh" sx={{ position: "relative" }}>
+      <Box minHeight="40vh" sx={{ position: "relative" }}>
         <Box
           sx={{
-            height: "40vh",
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            top: 0,
+            left: 0,
+            zIndex: 0,
+            backgroundColor: "black",
+            opacity: 0.5,
+          }}
+        />
+        <Box
+          sx={{
+            minHeight: "40vh",
             backgroundImage: "url(/images/002.webp)",
             backgroundSize: "cover ",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
+            padding: "30px 0",
           }}
-        />
-        <Box
-          sx={{
-            height: "40vh",
-            backgroundColor: "black",
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            opacity: 0.5,
-          }}
-        />
+        >
+          <Box sx={{ height: "inherit", position: "relative", zIndex: 99 }}>
+            <Box
+              sx={{
+                padding: " 0 200px",
+                width: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "left",
+                gap: "20px",
+              }}
+            >
+              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+                {" "}
+                Why Choose Us
+              </Typography>
+              <Typography variant="h4" sx={{ fontWeight: "bold" }}>
+                {" "}
+                We Create Result-Oriented Dynamic Applications
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                paddingTop: "50px",
+              }}
+            >
+              <Box
+                component={"img"}
+                src="/images/003.png"
+                sx={{ width: "40%" }}
+              ></Box>
+
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "20px",
+                  width: "60%",
+                  padding: "50px",
+                }}
+              >
+                <Typography variant="f18">
+                  {" "}
+                  Over 25 years working in IT services developing software
+                  applications and mobile apps for clients all over the world.
+                </Typography>
+
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+
+                    gap: "30px",
+                  }}
+                >
+                  <Box
+                    sx={{ display: "flex", gap: "30px", alignItems: "center" }}
+                  >
+                    <Box
+                      component={"img"}
+                      src="/images/icons/browser.webp"
+                      sx={{ width: "50px" }}
+                    />
+
+                    <Typography variant="h6" sx={{ fontWeight: "bold" }}>
+                      First Growing Process
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{ display: "flex", gap: "30px", alignItems: "center" }}
+                  >
+                    <Box
+                      component={"img"}
+                      src="/images/icons/web-browser.webp"
+                      sx={{ width: "50px" }}
+                    />
+
+                    <Typography variant="h6" sx={{ fontWeight: "bold" }}>
+                      Clean code
+                    </Typography>
+                  </Box>
+                  <Box
+                    sx={{ display: "flex", gap: "30px", alignItems: "center" }}
+                  >
+                    <Box
+                      component={"img"}
+                      src="/images/icons/file.webp"
+                      sx={{ width: "50px" }}
+                    />
+
+                    <Typography variant="h6" sx={{ fontWeight: "bold" }}>
+                      Well Documentation
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
       </Box>
       <Box sx={{ padding: "100px 50px" }}>
         <Box
