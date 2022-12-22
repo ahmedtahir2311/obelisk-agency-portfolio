@@ -1,23 +1,10 @@
 import React from "react";
 
-import {
-  Box,
-  Typography,
-  AppBar,
-  Toolbar,
-  IconButton,
-  Button,
-} from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
-import { getToken } from "@/utils/token";
 import Link from "next/link";
 
 const Navbar = () => {
-  /*This function can also be the context of user 
-    if avail then you can make further checks */
-
-  // { data: { authLogin, authLogout }
-
   return (
     <Box
       sx={{
