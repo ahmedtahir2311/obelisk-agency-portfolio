@@ -22,7 +22,8 @@ const FeatureCard = ({ data }) => {
       >
         <Box
           sx={{
-            backgroundColor: "#f5f5f550",
+            background:
+              "linear-gradient(45deg, rgba(196,84,198,1) 0%, rgba(243,150,131,1) 54%, rgba(237,128,106,1) 100%)",
             borderRadius: "50%",
             padding: "20px",
             display: "flex",
