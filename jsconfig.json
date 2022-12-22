@@ -4,7 +4,6 @@
     "paths": {
       "@/components/*": ["src/components/*"],
       "@/screens/*": ["src/components/Screens/*"],
-
       "@/theme/*": ["src/theme/*"]
     }
   }

@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
-import GradientBackground from "@/components/StyledComponents/StyledBox/gradiantBackground";
+import GradientBackground from "@/components/StyledComponents/StyledBox/GradiantBackground";
 
 const HomeBanner = () => {
   return (
