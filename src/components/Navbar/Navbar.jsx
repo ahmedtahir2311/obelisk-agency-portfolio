@@ -45,7 +45,7 @@ const Navbar = () => {
             <a>
               <Box
                 component={"img"}
-                src="/images/tsks/Logo3.png"
+                src="/images/obelisk/logo_dark.webp"
                 alt={""}
                 sx={{ width: "100px", height: "30px" }}
               />
@@ -53,17 +53,30 @@ const Navbar = () => {
           </Link>
         </Box>
         <Box>
-          <Link href={"/"}>
-            <a>
-              <Typography
-                variant="body1"
-                color="text.dark"
-                fontWeight={"fontWeightMedium"}
-              >
-                Features
-              </Typography>
-            </a>
-          </Link>
+          <Box sx={{ display: "flex", gap: "30px" }}>
+            <Link href={"/contact-us"}>
+              <a>
+                <Typography
+                  variant="body1"
+                  color="text.dark"
+                  fontWeight={"fontWeightMedium"}
+                >
+                  Services
+                </Typography>
+              </a>
+            </Link>
+            <Link href={"/contact-us"}>
+              <a>
+                <Typography
+                  variant="body1"
+                  color="text.dark"
+                  fontWeight={"fontWeightMedium"}
+                >
+                  Contact Us
+                </Typography>
+              </a>
+            </Link>
+          </Box>
         </Box>
       </Box>
     </Box>

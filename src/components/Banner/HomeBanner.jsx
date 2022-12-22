@@ -45,8 +45,9 @@ const HomeBanner = () => {
             </Typography>
             <Box>
               <Button variant="outlined" color="dark2">
-                {" "}
-                About Us
+                <a href="#aboutus" style={{ color: "#fff" }}>
+                  About Us
+                </a>
               </Button>
             </Box>
           </Box>

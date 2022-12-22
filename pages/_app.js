@@ -16,8 +16,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Tsks</title>
-        <meta name="description" content="tsks" />
+        <title>obelisk</title>
+        <meta name="description" content="obelisk" />
         <link rel="shortcut icon" href="/preshent/favicon.png" />
       </Head>
 

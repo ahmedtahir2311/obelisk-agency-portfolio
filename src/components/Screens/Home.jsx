@@ -37,7 +37,7 @@ const Home = () => {
       </Box>
       <GradientDivider sx={{}} />
 
-      <Box sx={{ padding: "100px 50px" }}>
+      <Box sx={{ padding: "100px 50px" }} id="aboutus">
         <Box
           sx={{
             display: "flex",
